@@ -7,9 +7,11 @@ export const DECREMENT = 'DECREMENT';
 // Eso se lo deja al reducer(s).
 
 export const increment = () => {
+  return {type: INCREMENT}
   // Completa la funcion
 };
 
 export const decrement = () => {
+  return {type: DECREMENT}
   // Completa la funcion
 };
